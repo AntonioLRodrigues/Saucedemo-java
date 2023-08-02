@@ -59,8 +59,12 @@ public class LoginTests {
 	public void loginSucesso() throws Exception {
 		page.login(usuario, senha, "Swag Labs");
 	}
+	
+	@Test
+	public void loginSucesso2() throws Exception {
+		page.login(usuario, senha, "Swag Labs");
 }
-
+}
 
 
 
